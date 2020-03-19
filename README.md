@@ -32,7 +32,13 @@ Simple demo application that shows the existing contacts.
  
  This ViewController used view the contact details, call relevant phone number and default dialler will open.
  
+ ### ContactDataService
  
+ This class used to retrive contact details, add Contact, Delete Contact and update Contact to CNContactStore.
+ 
+ ### ContactDataManager
+ 
+ This manager class manages the add/edit/delete contact details
  
 
 
