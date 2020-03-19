@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0528DD241ED16D0045FEC6 /* ContactEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0528DC241ED16D0045FEC6 /* ContactEditViewController.swift */; };
+		CD25AFF224171AC0005EF567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFF124171AC0005EF567 /* AppDelegate.swift */; };
+		CD25AFF424171AC0005EF567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25AFF324171AC0005EF567 /* SceneDelegate.swift */; };
+		CD25AFF924171AC0005EF567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD25AFF724171AC0005EF567 /* Main.storyboard */; };
+		CD25AFFB24171AC2005EF567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD25AFFA24171AC2005EF567 /* Assets.xcassets */; };
+		CD25AFFE24171AC2005EF567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD25AFFC24171AC2005EF567 /* LaunchScreen.storyboard */; };
+		CD25B00924171AC2005EF567 /* ContactManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B00824171AC2005EF567 /* ContactManagerTests.swift */; };
+		CD25B01424171AC2005EF567 /* ContactManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B01324171AC2005EF567 /* ContactManagerUITests.swift */; };
+		CD25B02724171D48005EF567 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B02624171D48005EF567 /* ContactViewController.swift */; };
+		CD25B02A2417214F005EF567 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B0292417214F005EF567 /* ContactTableViewCell.swift */; };
+		CD25B02D2417245E005EF567 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B02C2417245E005EF567 /* ContactViewModel.swift */; };
+		CD25B03024172822005EF567 /* ContactDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B02F24172822005EF567 /* ContactDataManager.swift */; };
+		CD25B0332417299D005EF567 /* ContactDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25B0322417299D005EF567 /* ContactDataService.swift */; };
+		CD2781DF242319AD004DF4AC /* ContactDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2781DE242319AD004DF4AC /* ContactDataManagerTests.swift */; };
+		CD9BD65C24203D0900885EA8 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BD65B24203D0900885EA8 /* ContactDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD25B00524171AC2005EF567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25AFE624171AC0005EF567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25AFED24171AC0005EF567;
+			remoteInfo = ContactManager;
+		};
+		CD25B01024171AC2005EF567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD25AFE624171AC0005EF567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD25AFED24171AC0005EF567;
+			remoteInfo = ContactManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0528DC241ED16D0045FEC6 /* ContactEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditViewController.swift; sourceTree = "<group>"; };
+		CD25AFEE24171AC0005EF567 /* ContactManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25AFF124171AC0005EF567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD25AFF324171AC0005EF567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD25AFF824171AC0005EF567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD25AFFA24171AC2005EF567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD25AFFD24171AC2005EF567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD25AFFF24171AC2005EF567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25B00424171AC2005EF567 /* ContactManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25B00824171AC2005EF567 /* ContactManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerTests.swift; sourceTree = "<group>"; };
+		CD25B00A24171AC2005EF567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25B00F24171AC2005EF567 /* ContactManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25B01324171AC2005EF567 /* ContactManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerUITests.swift; sourceTree = "<group>"; };
+		CD25B01524171AC2005EF567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD25B02624171D48005EF567 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CD25B0292417214F005EF567 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		CD25B02C2417245E005EF567 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		CD25B02F24172822005EF567 /* ContactDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDataManager.swift; sourceTree = "<group>"; };
+		CD25B0322417299D005EF567 /* ContactDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDataService.swift; sourceTree = "<group>"; };
+		CD2781DE242319AD004DF4AC /* ContactDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDataManagerTests.swift; sourceTree = "<group>"; };
+		CD9BD65B24203D0900885EA8 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD25AFEB24171AC0005EF567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00124171AC2005EF567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00C24171AC2005EF567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD25AFE524171AC0005EF567 = {
+			isa = PBXGroup;
+			children = (
+				CD25AFF024171AC0005EF567 /* ContactManager */,
+				CD25B00724171AC2005EF567 /* ContactManagerTests */,
+				CD25AFEF24171AC0005EF567 /* Products */,
+				CD25B01224171AC2005EF567 /* ContactManagerUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		CD25AFEF24171AC0005EF567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AFEE24171AC0005EF567 /* ContactManager.app */,
+				CD25B00424171AC2005EF567 /* ContactManagerTests.xctest */,
+				CD25B00F24171AC2005EF567 /* ContactManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD25AFF024171AC0005EF567 /* ContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B03124172976005EF567 /* ContactService */,
+				CD25B02E24172804005EF567 /* Manager */,
+				CD25B02524171D06005EF567 /* ViewController */,
+				CD25B02224171BE5005EF567 /* Resources */,
+				CD25B02124171B78005EF567 /* AppDelegate */,
+				CD25AFF324171AC0005EF567 /* SceneDelegate.swift */,
+				CD25AFFA24171AC2005EF567 /* Assets.xcassets */,
+				CD25AFFF24171AC2005EF567 /* Info.plist */,
+			);
+			path = ContactManager;
+			sourceTree = "<group>";
+		};
+		CD25B00724171AC2005EF567 /* ContactManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2781DD24231996004DF4AC /* Manager */,
+				CD25B00824171AC2005EF567 /* ContactManagerTests.swift */,
+				CD25B00A24171AC2005EF567 /* Info.plist */,
+			);
+			path = ContactManagerTests;
+			sourceTree = "<group>";
+		};
+		CD25B01224171AC2005EF567 /* ContactManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B01324171AC2005EF567 /* ContactManagerUITests.swift */,
+				CD25B01524171AC2005EF567 /* Info.plist */,
+			);
+			path = ContactManagerUITests;
+			sourceTree = "<group>";
+		};
+		CD25B02124171B78005EF567 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AFF124171AC0005EF567 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD25B02224171BE5005EF567 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B02424171C0A005EF567 /* LaunchScreen */,
+				CD25B02324171BFF005EF567 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD25B02324171BFF005EF567 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AFF724171AC0005EF567 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CD25B02424171C0A005EF567 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CD25AFFC24171AC2005EF567 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		CD25B02524171D06005EF567 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B02B241723DA005EF567 /* ViewModel */,
+				CD25B0282417211E005EF567 /* View */,
+				CD25B02624171D48005EF567 /* ContactViewController.swift */,
+				CD0528DC241ED16D0045FEC6 /* ContactEditViewController.swift */,
+				CD9BD65B24203D0900885EA8 /* ContactDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD25B0282417211E005EF567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B0292417214F005EF567 /* ContactTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD25B02B241723DA005EF567 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B02C2417245E005EF567 /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD25B02E24172804005EF567 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B02F24172822005EF567 /* ContactDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CD25B03124172976005EF567 /* ContactService */ = {
+			isa = PBXGroup;
+			children = (
+				CD25B0322417299D005EF567 /* ContactDataService.swift */,
+			);
+			path = ContactService;
+			sourceTree = "<group>";
+		};
+		CD2781DD24231996004DF4AC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD2781DE242319AD004DF4AC /* ContactDataManagerTests.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD25AFED24171AC0005EF567 /* ContactManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25B01824171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManager" */;
+			buildPhases = (
+				CD25AFEA24171AC0005EF567 /* Sources */,
+				CD25AFEB24171AC0005EF567 /* Frameworks */,
+				CD25AFEC24171AC0005EF567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactManager;
+			productName = ContactManager;
+			productReference = CD25AFEE24171AC0005EF567 /* ContactManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD25B00324171AC2005EF567 /* ContactManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25B01B24171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManagerTests" */;
+			buildPhases = (
+				CD25B00024171AC2005EF567 /* Sources */,
+				CD25B00124171AC2005EF567 /* Frameworks */,
+				CD25B00224171AC2005EF567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25B00624171AC2005EF567 /* PBXTargetDependency */,
+			);
+			name = ContactManagerTests;
+			productName = ContactManagerTests;
+			productReference = CD25B00424171AC2005EF567 /* ContactManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD25B00E24171AC2005EF567 /* ContactManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD25B01E24171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManagerUITests" */;
+			buildPhases = (
+				CD25B00B24171AC2005EF567 /* Sources */,
+				CD25B00C24171AC2005EF567 /* Frameworks */,
+				CD25B00D24171AC2005EF567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD25B01124171AC2005EF567 /* PBXTargetDependency */,
+			);
+			name = ContactManagerUITests;
+			productName = ContactManagerUITests;
+			productReference = CD25B00F24171AC2005EF567 /* ContactManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD25AFE624171AC0005EF567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Siju Satheesachandran";
+				TargetAttributes = {
+					CD25AFED24171AC0005EF567 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CD25B00324171AC2005EF567 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CD25AFED24171AC0005EF567;
+					};
+					CD25B00E24171AC2005EF567 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CD25AFED24171AC0005EF567;
+					};
+				};
+			};
+			buildConfigurationList = CD25AFE924171AC0005EF567 /* Build configuration list for PBXProject "ContactManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD25AFE524171AC0005EF567;
+			productRefGroup = CD25AFEF24171AC0005EF567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD25AFED24171AC0005EF567 /* ContactManager */,
+				CD25B00324171AC2005EF567 /* ContactManagerTests */,
+				CD25B00E24171AC2005EF567 /* ContactManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD25AFEC24171AC0005EF567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25AFFE24171AC2005EF567 /* LaunchScreen.storyboard in Resources */,
+				CD25AFFB24171AC2005EF567 /* Assets.xcassets in Resources */,
+				CD25AFF924171AC0005EF567 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00224171AC2005EF567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00D24171AC2005EF567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD25AFEA24171AC0005EF567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9BD65C24203D0900885EA8 /* ContactDetailsViewController.swift in Sources */,
+				CD25B02D2417245E005EF567 /* ContactViewModel.swift in Sources */,
+				CD25B0332417299D005EF567 /* ContactDataService.swift in Sources */,
+				CD25B02A2417214F005EF567 /* ContactTableViewCell.swift in Sources */,
+				CD25B02724171D48005EF567 /* ContactViewController.swift in Sources */,
+				CD25AFF224171AC0005EF567 /* AppDelegate.swift in Sources */,
+				CD25AFF424171AC0005EF567 /* SceneDelegate.swift in Sources */,
+				CD25B03024172822005EF567 /* ContactDataManager.swift in Sources */,
+				CD0528DD241ED16D0045FEC6 /* ContactEditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00024171AC2005EF567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2781DF242319AD004DF4AC /* ContactDataManagerTests.swift in Sources */,
+				CD25B00924171AC2005EF567 /* ContactManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD25B00B24171AC2005EF567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25B01424171AC2005EF567 /* ContactManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD25B00624171AC2005EF567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25AFED24171AC0005EF567 /* ContactManager */;
+			targetProxy = CD25B00524171AC2005EF567 /* PBXContainerItemProxy */;
+		};
+		CD25B01124171AC2005EF567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD25AFED24171AC0005EF567 /* ContactManager */;
+			targetProxy = CD25B01024171AC2005EF567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD25AFF724171AC0005EF567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD25AFF824171AC0005EF567 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD25AFFC24171AC2005EF567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD25AFFD24171AC2005EF567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD25B01624171AC2005EF567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD25B01724171AC2005EF567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD25B01924171AC2005EF567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MFT2M565;
+				INFOPLIST_FILE = ContactManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.contactCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD25B01A24171AC2005EF567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2MFT2M565;
+				INFOPLIST_FILE = ContactManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.contactCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD25B01C24171AC2005EF567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8GNPUJ2UY;
+				INFOPLIST_FILE = ContactManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nerb.ContactManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactManager.app/ContactManager";
+			};
+			name = Debug;
+		};
+		CD25B01D24171AC2005EF567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8GNPUJ2UY;
+				INFOPLIST_FILE = ContactManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nerb.ContactManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactManager.app/ContactManager";
+			};
+			name = Release;
+		};
+		CD25B01F24171AC2005EF567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8GNPUJ2UY;
+				INFOPLIST_FILE = ContactManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nerb.ContactManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactManager;
+			};
+			name = Debug;
+		};
+		CD25B02024171AC2005EF567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8GNPUJ2UY;
+				INFOPLIST_FILE = ContactManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nerb.ContactManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD25AFE924171AC0005EF567 /* Build configuration list for PBXProject "ContactManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25B01624171AC2005EF567 /* Debug */,
+				CD25B01724171AC2005EF567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25B01824171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25B01924171AC2005EF567 /* Debug */,
+				CD25B01A24171AC2005EF567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25B01B24171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25B01C24171AC2005EF567 /* Debug */,
+				CD25B01D24171AC2005EF567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD25B01E24171AC2005EF567 /* Build configuration list for PBXNativeTarget "ContactManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD25B01F24171AC2005EF567 /* Debug */,
+				CD25B02024171AC2005EF567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD25AFE624171AC0005EF567 /* Project object */;
+}
