@@ -3,7 +3,14 @@ Simple demo application that shows the existing contacts.
 
 # Screenshots
 
-Display all contacts
+### Display all contacts ###
 
-![Screenshot](screenshot1.png) 
+<img src="Contacts.png" width="50%">
+
+### Contact Details  ###
+
+<img src="Contacts.png" width="50%">
+
+### Add/Edit Contact  ###
+
 
