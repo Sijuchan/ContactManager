@@ -20,15 +20,15 @@ Simple demo application that shows the existing contacts.
  
  ### ViewControllers
  
- 1.ContactViewController
+ ####ContactViewController
  
  This ViewController used to present the existing contact details in TableView
  
- 2.ContactEditViewController
+ ####ContactEditViewController
  
  This ViewController used to edit existing contact add add new contact
  
- 3.ContactDetailsViewController
+ ####ContactDetailsViewController
  
  This ViewController used view the contact details, call relevant phone number and default dialler will open.
  
