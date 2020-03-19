@@ -15,6 +15,25 @@ Simple demo application that shows the existing contacts.
     <td><img src="Edit_Contact.png" width=270 height=480></td>
   </tr>
  </table>
+ 
+ # Project Structure
+ 
+ ### ViewControllers
+ 
+ 1.ContactViewController
+ 
+ This ViewController used to present the existing contact details in TableView
+ 
+ 2.ContactEditViewController
+ 
+ This ViewController used to edit existing contact add add new contact
+ 
+ 3.ContactDetailsViewController
+ 
+ This ViewController used view the contact details, call relevant phone number and default dialler will open.
+ 
+ 
+ 
 
 
 
