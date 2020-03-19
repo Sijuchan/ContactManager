@@ -3,21 +3,22 @@ Simple demo application that shows the existing contacts.
 
 # Screenshots
 
-### Display all contacts ### <br/>
+
+### Display all contacts  ###
 
 
-<img src="Contacts.png" width="50%">
+<img src="Contacts.png" width="30%">
 
-### Contact Details  ### <br/>
-
-
-<img src="Contacts.png" width="50%">
+### Contact Details  ###
 
 
-### Add/Edit Contact  ### <br/>
+<img src="Contacts.png" width="30%">
 
 
-<img src="Contacts.png" width="50%">
+### Add/Edit Contact ###
+
+
+<img src="Contacts.png" width="30%">
 
 
 
