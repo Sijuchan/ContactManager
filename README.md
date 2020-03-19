@@ -5,9 +5,9 @@ Simple demo application that shows the existing contacts.
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
+    <td>Display All Contacts</td>
+     <td>Contact Details</td>
+     <td>Edit Contact</td>
   </tr>
   <tr>
     <td><img src="Contacts.png" width=270 height=480></td>
