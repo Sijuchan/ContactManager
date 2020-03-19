@@ -3,11 +3,8 @@ Simple demo application that shows the existing contacts.
 
 # Screenshots
 
+![alt-text-1](Contacts.png "title-1") ![alt-text-2](Contacts.png "title-2")
 
-Display all contacts            |  Contact Details | Add/Edit Contact
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="Contacts.png" width="30%"> |  <img src="Contacts.png" width="30%"> | 
-<img src="Contacts.png" width="30%">
 
 
 
