@@ -1,9 +1,20 @@
 # ContactManager
 Simple demo application that shows the existing contacts.
 
-# Screenshots
+# App Screenshots
 
-![alt-text-1](Contacts.png "title-1") ![alt-text-2](Contacts.png "title-2")
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="Contacts.png" width=270 height=480></td>
+    <td><img src="Contacts.png" width=270 height=480></td>
+    <td><img src="Contacts.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 
 
